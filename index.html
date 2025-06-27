@@ -1,56 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AsadWrites | Learn Islam, AI Tools & Freelancing</title>
-  <meta name="description" content="Explore authentic Islamic knowledge, AI tools tutorials, and freelancing tips. Grow in Deen and Duniya with AsadWrites." />
-  <meta name="keywords" content="Islam, AI tools, freelancing, Quran, Hadith, earning, blog, asadwrites, SEO" />
-  <meta name="author" content="Mohammad Asad">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AsadWrites - Your ultimate destination for AI tools, freelancing guides, tech blogs, and Islamic wisdom. Explore free tools and resources to enhance your digital life.">
+    <meta name="keywords" content="AI tools, freelancing, tech blog, Islamic quotes, Quran, image compressor, free tools, AsadWrites">
+    <meta name="author" content="AsadWrites">
+    <title>AsadWrites - AI Tools, Freelancing & Islamic Wisdom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>AsadWrites</h1>
-    <p>Islam ✦ AI Tools ✦ Freelancing</p>
-  </header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="blog.html">Blog</a>
-    <a href="about.html">About</a>
-    <a href="comp.html">Image Compressor</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <main>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <i class="fas fa-pen-fancy"></i> AsadWrites
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#ai-tools">AI Tools</a></li>
+                    <li><a href="#freelancing">Freelancing</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#islamic">Islamic Wisdom</a></li>
+                    <li><a href="image.html">Image Compressor</a></li>
+                    <li><a href="#tools">Free Tools</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
     <section class="hero">
-      <h2>Empower Yourself with Knowledge of Deen & Technology</h2>
-      <p>Get daily Islamic inspiration, tutorials on trending AI tools, and freelancing guidance for students & beginners.</p>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to <span>AsadWrites</span></h1>
+                <p>Your comprehensive resource for AI technology, freelancing success, insightful blogging, and spiritual growth.</p>
+                <div class="cta-buttons">
+                    <a href="#ai-tools" class="btn primary">Explore Tools</a>
+                    <a href="#blog" class="btn secondary">Read Blog</a>
+                </div>
+                <div class="trust-badges">
+                    <div class="badge">
+                        <i class="fas fa-check-circle"></i>
+                        <span>100% Free Resources</span>
+                    </div>
+                    <div class="badge">
+                        <i class="fas fa-users"></i>
+                        <span>10,000+ Monthly Readers</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="asad.jpg" alt="AsadWrites Digital Resources" loading="lazy">
+            </div>
+        </div>
     </section>
-    <section class="cards">
-      <div class="card">
-        <img src="https://plus.unsplash.com/premium_photo-1679673678962-63b1e51ed042?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aXNsYW1pY3xlbnwwfHwwfHx8MA%3D%3D" alt="Islamic Content">
-        <h3> <a href="blog/islamic.html">Islamic Reminders </a></h3>
-        <p>Daily Hadiths, Quranic Ayahs & inspiring quotes to nourish your soul.</p>
-        
-      </div>
-      <div class="card">
-        <img src="https://plus.unsplash.com/premium_photo-1726666269043-fb16e54646d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWklMjB0b29sc3xlbnwwfHwwfHx8MA%3D%3D" alt="AI Tools">
-        <h3>AI Tool Guides</h3>
-        <p>Master ChatGPT, Canva, Gemini, and more tools to supercharge productivity.</p>
-        <a href="blog/ai-tools.html">Explore →</a>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1664575197229-3bbebc281874?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZWxhbmNpbmd8ZW58MHwwfDB8fHww" alt="Freelancing Tips">
-        <h3>Freelancing Tips</h3>
-        <p>Start your online career with Fiverr, Upwork, and TTS content creation.</p>
-        <a href="blog/freelance.html">Start Now →</a>
-      </div>
+
+    <!-- AI Tools Section -->
+    <section id="ai-tools" class="section">
+        <div class="container">
+            <h2 class="section-title">Premium AI Tools Collection</h2>
+            <p class="section-subtitle">Handpicked AI tools to boost your productivity and creativity</p>
+            
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Content Writer</h3>
+                    <p>Generate high-quality articles, blog posts, and marketing copy in seconds.</p>
+                    <div class="tool-meta">
+                        <span class="tool-category">Writing</span>
+                        <span class="tool-rating">
+                            <i class="fas fa-star"></i> 4.8
+                        </span>
+                    </div>
+                    <a href="#" class="btn small">Try Now</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>AI Image Generator</h3>
+                    <p>Create stunning visuals from text prompts with our advanced AI art tool.</p>
+                    <div class="tool-meta">
+                        <span class="tool-category">Design</span>
+                        <span class="tool-rating">
+                            <i class="fas fa-star"></i> 4.7
+                        </span>
+                    </div>
+                    <a href="#" class="btn small">Try Now</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>AI Code Assistant</h3>
+                    <p>Write better code faster with AI-powered suggestions and debugging.</p>
+                    <div class="tool-meta">
+                        <span class="tool-category">Development</span>
+                        <span class="tool-rating">
+                            <i class="fas fa-star"></i> 4.9
+                        </span>
+                    </div>
+                    <a href="#" class="btn small">Try Now</a>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <a href="#" class="btn primary">View All 25+ AI Tools</a>
+            </div>
+        </div>
     </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Mohammad Asad | <a href="https://asadwrites.me">asadwrites.me</a></p>
-  </footer>
+
+    <!-- Freelancing Section -->
+    <section id="freelancing" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Freelancing Mastery</h2>
+            <p class="section-subtitle">Proven strategies to build and grow your freelancing career</p>
+            
+            <div class="freelancing-content">
+                <div class="freelancing-image">
+                    <img src="https://via.placeholder.com/500x350" alt="Freelancing Guide" loading="lazy">
+                </div>
+                <div class="freelancing-text">
+                    <h3>From Beginner to Pro Freelancer</h3>
+                    <p>Our comprehensive guides cover everything from finding your first client to scaling your freelance business.</p>
+                    
+                    <div class="resource-list">
+                        <div class="resource-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Step-by-step freelancing roadmap</span>
+                        </div>
+                        <div class="resource-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Proposal templates that win projects</span>
+                        </div>
+                        <div class="resource-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Portfolio building strategies</span>
+                        </div>
+                        <div class="resource-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Client communication techniques</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn primary">Start Freelancing Journey</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container">
+            <h2 class="section-title">AsadWrites Blog</h2>
+            <p class="section-subtitle">Insightful articles on technology, freelancing, and personal growth</p>
+            
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250" alt="AI Content Creation" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">AI Technology</span>
+                        <h3>How AI is Revolutionizing Content Creation</h3>
+                        <p>Explore the transformative impact of AI on writing, design, and media production.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> June 20, 2023</span>
+                            <span><i class="far fa-eye"></i> 1,245 views</span>
+                        </div>
+                        <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250" alt="Freelance Pricing" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Freelancing</span>
+                        <h3>The Ultimate Guide to Freelance Pricing</h3>
+                        <p>Learn how to price your services competitively while maximizing your earnings.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> June 15, 2023</span>
+                            <span><i class="far fa-eye"></i> 2,187 views</span>
+                        </div>
+                        <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250" alt="Digital Productivity" loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Productivity</span>
+                        <h3>10 Tools to Supercharge Your Digital Productivity</h3>
+                        <p>Discover essential apps and techniques to get more done in less time.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> June 10, 2023</span>
+                            <span><i class="far fa-eye"></i> 3,542 views</span>
+                        </div>
+                        <a href="#" class="read-more">Read Article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="section-cta">
+                <a href="#" class="btn primary">Explore All Blog Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Islamic Wisdom Section -->
+    <section id="islamic" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Islamic Wisdom & Guidance</h2>
+            <p class="section-subtitle">Daily inspiration from Quranic verses and authentic Hadith</p>
+            
+            <div class="quote-container">
+                <div class="quote-box">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="quote-text">"And whoever fears Allah - He will make for him a way out and will provide for him from where he does not expect."</p>
+                    <p class="quote-source">Quran 65:2-3</p>
+                    <div class="quote-actions">
+                        <button id="prev-quote"><i class="fas fa-chevron-left"></i></button>
+                        <span id="quote-counter">1/5</span>
+                        <button id="next-quote"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="islamic-resources">
+                <div class="resource-card">
+                    <i class="fas fa-book-quran"></i>
+                    <h3>Quran Reflections</h3>
+                    <p>Daily verses with practical explanations for modern life applications.</p>
+                    <a href="#" class="btn small">Read Now</a>
+                </div>
+                
+                <div class="resource-card">
+                    <i class="fas fa-hands-praying"></i>
+                    <h3>Prophetic Teachings</h3>
+                    <p>Authentic Hadith collections with commentary and lessons.</p>
+                    <a href="#" class="btn small">Learn More</a>
+                </div>
+                
+                <div class="resource-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Islamic Articles</h3>
+                    <p>Thought-provoking pieces on faith, spirituality, and contemporary issues.</p>
+                    <a href="#" class="btn small">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="section">
+        <div class="container">
+            <h2 class="section-title">Free Practical Tools</h2>
+            <p class="section-subtitle">Essential utilities to simplify your digital workflow</p>
+            
+            <div class="tools-grid">
+                <div class="tool-card large">
+                    <div class="tool-icon">
+                        <i class="fas fa-compress-alt"></i>
+                    </div>
+                    <h3>Advanced Image Compressor</h3>
+                    <p>Optimize your images for web with our powerful compression tool. Reduce file sizes without visible quality loss.</p>
+                    <div class="tool-interface">
+                        <div class="upload-area" id="drop-zone">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <p>Drag & drop images here or click to browse</p>
+                            <input type="file" id="image-upload" accept="image/*" multiple>
+                        </div>
+                        <div class="compression-options">
+                            <div class="option">
+                                <label for="quality">Quality:</label>
+                                <input type="range" id="quality" min="1" max="100" value="80">
+                                <span id="quality-value">80%</span>
+                            </div>
+                            <div class="option">
+                                <label for="format">Format:</label>
+                                <select id="format">
+                                    <option value="original">Original</option>
+                                    <option value="jpeg">JPEG</option>
+                                    <option value="png">PNG</option>
+                                    <option value="webp">WebP</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button class="btn primary" id="compress-btn">Compress Images</button>
+                    </div>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>Secure Password Generator</h3>
+                    <p>Create strong, random passwords to protect your online accounts.</p>
+                    <div class="tool-interface">
+                        <div class="password-display" id="password-display"></div>
+                        <div class="password-options">
+                            <label>
+                                <input type="checkbox" id="uppercase" checked> Uppercase
+                            </label>
+                            <label>
+                                <input type="checkbox" id="numbers" checked> Numbers
+                            </label>
+                            <label>
+                                <input type="checkbox" id="symbols"> Symbols
+                            </label>
+                            <div class="length-option">
+                                <label for="length">Length:</label>
+                                <input type="number" id="length" min="8" max="32" value="12">
+                            </div>
+                        </div>
+                        <button class="btn small" id="generate-password">Generate</button>
+                        <button class="btn small" id="copy-password">Copy</button>
+                    </div>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <h3>URL Shortener</h3>
+                    <p>Create short, memorable links for sharing on social media and websites.</p>
+                    <div class="tool-interface">
+                        <input type="text" id="url-input" placeholder="Enter your long URL">
+                        <div class="custom-url">
+                            <span>asadwrites.com/</span>
+                            <input type="text" id="custom-slug" placeholder="custom (optional)">
+                        </div>
+                        <button class="btn small" id="shorten-btn">Shorten URL</button>
+                        <div id="short-url-result"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Join Our Community</h2>
+                <p>Subscribe to get exclusive access to new tools, articles, and resources before anyone else.</p>
+                <div class="subscriber-count">
+                    <i class="fas fa-users"></i>
+                    <span>Join 15,000+ subscribers</span>
+                </div>
+            </div>
+            <form class="newsletter-form" id="newsletter-form">
+                <div class="input-group">
+                    <input type="email" id="newsletter-email" placeholder="Your best email address" required>
+                    <button type="submit" class="btn primary">Subscribe</button>
+                </div>
+                <div class="privacy-note">
+                    <input type="checkbox" id="privacy-check" required>
+                    <label for="privacy-check">I agree to the privacy policy</label>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3><i class="fas fa-pen-fancy"></i> AsadWrites</h3>
+                    <p>Empowering your digital journey with cutting-edge tools, valuable knowledge, and spiritual guidance.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#ai-tools">AI Tools</a></li>
+                        <li><a href="#freelancing">Freelancing Guides</a></li>
+                        <li><a href="#blog">Tech Blog</a></li>
+                        <li><a href="#islamic">Islamic Wisdom</a></li>
+                        <li><a href="#tools">Free Tools</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Advertise</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Popular Categories</h3>
+                    <ul>
+                        <li><a href="#">AI Technology</a></li>
+                        <li><a href="#">Freelance Tips</a></li>
+                        <li><a href="#">Productivity</a></li>
+                        <li><a href="#">Quran Reflections</a></li>
+                        <li><a href="#">Islamic Finance</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 AsadWrites.com. All rights reserved.</p>
+                <p>Designed with <i class="fas fa-heart"></i> for the Muslim Ummah</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
